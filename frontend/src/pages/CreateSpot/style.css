@@ -1,0 +1,27 @@
+label#thumbnail {
+  margin-bottom: 20px;
+  border: 1px dashed #ccc;
+  background-size: cover;
+  cursor: pointer;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  transition: 270ms linear all;
+}
+
+label#thumbnail:hover {
+  opacity: 0.7;
+}
+
+label#thumbnail input {
+  display: none;
+}
+
+label#thumbnail.hasThumbnail {
+  border: 0;
+}
+
+label#thumbnail.hasThumbnail img {
+  display: none;
+}
