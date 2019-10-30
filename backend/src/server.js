@@ -7,7 +7,7 @@ const routes = require('./routes');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://<yourCurrentDBApiURL>?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<yourCurrentDBApiURL>?retryWrites=true&w=majority', {// this line will break, plz change to your credentials
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
