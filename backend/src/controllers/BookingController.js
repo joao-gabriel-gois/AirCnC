@@ -15,6 +15,12 @@ module.exports = {
     await booking.populate('spot').populate('user').execPopulate();
     //populating mongo db
     
+    const spotOwnerSocket = request.connectedUsers[booking.spot.user];// checking if user_id is among the connection pool obj
+
+    if (spotOwnerSocket) {
+      request.io.to(spotOwnerSocket).emit('booking_request', booking);
+    }
+
     return response.json(booking);
   }
 }
