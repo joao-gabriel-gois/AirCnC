@@ -30,3 +30,39 @@ ul.spotList li span {
   font-size: 15px;
   color: #999;
 }
+
+ul.notifications {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+ul.notifications li {
+  margin: 2px 0;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+ul.notifications li button {
+  margin-right: 10px;
+  border: 0;
+  font-weight: 900;
+  margin-top: 8px;
+  background: #eee;
+  cursor: pointer;
+}
+
+ul.notifications li button.accept {
+  color: #84CF70;
+}
+
+ul.notifications li button.reject {
+  color: #E75E5E;
+}
+
+img.schedule-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px auto;
+  height: 24px;
+}
