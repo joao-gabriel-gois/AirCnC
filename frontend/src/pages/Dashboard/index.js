@@ -5,6 +5,7 @@ import './style.css';
 
 export default function Dashboard() {
   const [spots, setSpots] = useState([]);
+  
   useEffect(() => {
     async function loadSpots() {
       const user_id = localStorage.getItem('user');
