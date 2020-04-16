@@ -20,7 +20,7 @@ const connectedUsers = {};// for study only, should use some db such as redis fo
 io.on('connection', socket => {
   const { user_id } = socket.handshake.query;
   console.log(`Usuário "${user_id} se conectou websocket " ${socket.id}`);
-  connectUsers[user_id] = socket.id;
+  connectedUsers[user_id] = socket.id;
 });
 
 app.use((request, response, next) =>{
