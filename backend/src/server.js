@@ -7,7 +7,7 @@ const http = require('http');
 const routes = require('./routes');
 
 const app = express();
-const server = http.Server();
+const server = http.Server(app);
 const io = socketio(server);
 
 mongoose.connect('mongodb+srv://stdnt-cl_pudou:Test@123@stdnt-cl-cfp6k.mongodb.net/omnistack?retryWrites=true&w=majority', {// this line will break, plz change to your credentials

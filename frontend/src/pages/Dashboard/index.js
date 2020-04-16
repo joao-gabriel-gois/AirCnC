@@ -2,7 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import socketio from 'socket.io-client';
 
-import '../../assets/calendar.svg';
+import calendar from '../../assets/calendar.svg';
 
 import api from '../../services/api';
 import './style.css';
