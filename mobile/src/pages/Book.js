@@ -8,6 +8,7 @@ import logo from '../assets/logo.png';
 export default function Book({ navigation }) {
   const [date, setDate] = useState('');
   const id = navigation.getParam('id');
+
   async function handleSubmit() {
     const user_id = await AsyncStorage.getItem('user');
     api.post(`/spots/${id}/bookings`, {
@@ -18,6 +19,7 @@ export default function Book({ navigation }) {
     Alert.alert('Solicitação de reserva enviada com sucesso.');
     navigation.navigate('UserSession');
   };
+  
   function handleCancel() {
     navigation.navigate('UserSession');
   };
