@@ -1,7 +1,7 @@
 const Booking = require('../models/Booking');
 
 module.exports = {
-   async StorageEvent(request, response) {
+   async store(request, response) {
       const { booking_id } = request.param;
       const booking = await Booking.findById(booking_id).populate('spot');
       
