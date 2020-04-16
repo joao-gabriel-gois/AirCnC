@@ -10,7 +10,7 @@ const app = express();
 const server = http.Server(app);
 const io = socketio(server);
 
-mongoose.connect('mongodb+srv://stdnt-cl_pudou:Test@123@stdnt-cl-cfp6k.mongodb.net/omnistack?retryWrites=true&w=majority', {// this line will break, plz change to your credentials
+mongoose.connect('mongodb+srv://<user>:<passwd>@<cluster>.mongodb.net/<db>?retryWrites=true&w=majority', {// this line will break, plz change to your credentials
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
