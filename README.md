@@ -1,5 +1,5 @@
 # AirCnC - Code and Coffee
-Developed in Omnistack Week Project from @RocketSeat
+Developed in Omnistack Week from @RocketSeat
 
 ## Offer Spots and Devs to have a change to connect
 
