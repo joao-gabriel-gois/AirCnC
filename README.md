@@ -4,7 +4,7 @@ Developed in Omnistack Week from @RocketSeat
 ## Offer Spots and Devs to have a chance to connect
 
 Imagine if companies that has empty spaces in their workplace would have the change to offer it (putting a price or not)
-to other developers, based on which technologies they are interested?
+to other developers, based on which technologies they are interested on?
 
 Freelance devs may have a chance to work in other companies and talk about code during coffee time.
 Companies may have a chance to understand new uses and discuss product with people that are developing
