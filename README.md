@@ -1,7 +1,7 @@
 # AirCnC - Code and Coffee
 Developed in Omnistack Week from @RocketSeat
 
-## Offer Spots and Devs to have a change to connect
+## Offer Spots and Devs to have a chance to connect
 
 Imagine if companies that has empty spaces in their workplace would have the change to offer it (putting a price or not)
 to other developers, based on which technologies they are interested?
